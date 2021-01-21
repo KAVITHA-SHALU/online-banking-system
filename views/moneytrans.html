@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Transfer</title>
+        <link type="text/css" rel="stylesheet" href="money.css">
+    </head>
+   
+    <body class="back">
+        <header>
+            <div id="menu">
+                 <img src="online-bank.jpg" class="log">
+         </div>
+ 
+         <div id="nav">
+             <ul>
+                <li style="width:33.3%;"class="dropdown"> <a href="final.html">Home</a></li>
+                 <li style="width:33.3%;"class="dropdown"> <a href="moneytrans.html">Money transfer</a></li>
+                 <li style="border-right: 0px !important; width:33.1%;"><a href="userlist.html">User List</a></li>
+             </ul>
+         </div>
+         </header>
+        
+        
+            <form class="formbox" method="POST" action="/moneytrans">
+                <filedset>
+                    <h3>Current Account</h3>
+                    <br>
+                    <h4 ><strong>TRANSFER MONEY-FROM ONE POCKET TO ANOTHER</strong></h4>
+                    <div>
+                        <label >Pay From<sup>*</sup></label>:
+                        <br> <input name="fromaccountnumber" class="bar" type="text" placeholder="XXXXXXXXXX678" >
+                        <label> <br> Pay To<sup>*</sup></label>:
+                        <br><input name="toaccountnumber" class="bar" type="text" placeholder="XXXXXXXXXX999">
+                        <label>  <br> Amount(INR)<sup>*</sup></label>:
+                        <br><input name="amount" class="bar" type="text" placeholder="1-10,000">
+                        <label ><br>Payment Remarks</label>:
+                        <br><input name="reason" class="bar" type="text" placeholder="Remarks">
+                        <br><input class="button" type="submit">
+                    </div>
+                    
+                </filedset>
+        </form>
+    
+             
+       
+            <footer>
+            <div>
+                <ul>
+                    <h4>Customer Service</h4>
+                    <li class="icon2">Customer Care Numbers</li>
+                </ul>
+                
+           </div>
+                
+                
+        </footer>
+    
+    </body>
+</html>
